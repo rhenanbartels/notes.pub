@@ -2,6 +2,7 @@
 
 ```
 pg_dump \
+  --verbose \
   --file {filename}.tar \
   --format=tar \
   --no-acl \
@@ -17,6 +18,7 @@ pg_dump \
 
 ```
 pg_restore \
+  --verbose \
   --format=tar \
   --no-acl \
   --no-owner \
